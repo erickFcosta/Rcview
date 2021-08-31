@@ -10,8 +10,9 @@ public class MainActivity extends AppCompatActivity {
 
     RecyclerView recyclerView;
 
-    String s1[], s2[];
-    int images[] = {R.drawable.icon_add, R.drawable.icon_cars, R.drawable.icon_clock,
+    String[] s1;
+    String[] s2;
+    int[] images = {R.drawable.icon_add, R.drawable.icon_cars, R.drawable.icon_clock,
                     R.drawable.icon_conf, R.drawable.icon_date_hour, R.drawable.icon_login,
                     R.drawable.icon_logout, R.drawable.icon_map_point, R.drawable.icon_trash, R.drawable.icon_user};
 
